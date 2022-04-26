@@ -8,10 +8,16 @@
 }
 
 .func {
-    width: 400px;
+    width: 800px;
     height: 400px;
     background-color: red;
     transition: all 2000ms;
+    display: flex;
+    justify-content: center;   
+    font-weight: bolder;   
+    font-size: 1.8rem;
+    border-radius: 20px;
+    
 }
 
 .kleiner {
@@ -20,10 +26,15 @@
     background-color: blue;
     transition: all 2000ms;
     color: white;
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.8rem;
+    padding: 2rem;
+    border-radius: 20px;
 }
 
 img {
     width: 200px;
+}
+
+p{
+    text-align: center;
 }
